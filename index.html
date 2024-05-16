@@ -1,0 +1,131 @@
+<html lang="en-Us">
+<head>
+    <title>SOS CHUVAS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dicas para quem vai morar sozinho-">
+    <style>
+        body {
+            font-family: Times New Roman, sans-serif;
+            margin: 0;
+            background-color: rgb(218, 209, 209);
+            height: 100vh; /* Isso garante que o conteúdo fique centralizado verticalmente na página */
+        }
+
+        h1 {
+            color: #c50f0f;
+            font-size: 2em;
+            margin-top: 300px;
+            margin-left:830px ;
+        }
+
+        p {
+            color: #333;
+            font-size: 1em;
+            text-align-last: justify;
+        }
+
+        .menu_1 {
+            background-color: lightblue;
+            height: 40px;
+        }
+
+        .menu_2 {
+            background-color: lightgreen;
+            height: 80px;
+        }
+
+        .interna {
+            margin: 10px;
+            padding: 0;
+        }
+
+        ul {
+            display: inline;
+            justify-content: space-between;
+            list-style-type: none;
+            padding: 20px;
+            align-items: center;
+            background-color: #5d94b4;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            margin: 0;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: rgb(11, 11, 12);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #2b55e0cc;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #fff; /* Adicionei uma cor de fundo para destacar o formulário */
+            padding: 20px; /* Adicionei um preenchimento para melhorar a aparência */
+            border-radius: 8px; /* Adicionei bordas arredondadas para suavizar a aparência */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adicionei uma sombra sutil para dar profundidade */
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #6d88d1;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px; /* Adicionei bordas arredondadas para o botão */
+        }
+
+        input[type="submit"]:hover {
+            background-color: #e00a0a; /* Mudei a cor de fundo quando o botão é hover */
+        }
+
+        .botao {
+            margin-left: 830px;
+            margin-top: 10px;
+        }
+
+        .local {
+            margin-bottom: 200px;
+        }
+    </style>
+</head>
+
+<body>
+<div>
+    <h1>CADASTRO</h1>
+</div>
+<div class="local">
+    <form action="submit" method="post">
+        <label for="estado">Estado:</label>
+        <input type="text" id="estado" name="estado" required>
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade" required>
+    </form>
+    <form  action="inicio.html" method="post">
+        <input type="submit" value="Acessar">
+        <a href="inicio.html"></a>
+    </form>
+</div>
+</body>
+</html>
